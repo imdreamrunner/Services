@@ -17,6 +17,10 @@ echo -e "$GREEN---> Starting phpMyAdmin$NC"
 $DIR/phpmyadmin/run.sh
 echo
 
+echo -e "$GREEN---> Starting ownCloud$NC"
+$DIR/owncloud/run.sh
+echo
+
 echo -e "$GREEN---> Starting Gogs$NC"
 $DIR/gogs/run.sh
 echo
